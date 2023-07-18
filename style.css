@@ -11,7 +11,7 @@ body{
     max-width: 1920px;
     margin: 0 auto;
 }
-nav{
+nav,main{
     padding: 0 240px;
 }
 
@@ -111,8 +111,63 @@ nav{
     background-color: #4EC5F7;
     margin-left: 20px;
 }
-/* .play-container image{
+
+/* .......funny-videos-section.......... */
+.funny-videos-section h3{
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+}
+.funny-videos-section h3>span{
+    color: #8758F1;
+    text-align: center;
+    margin: 0;
+}
+.funny-videos-section >p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    gap: 24px;
+}
+.card img{
+   width: 100%;
+}
+
+/*......... play-instantly......... */
+/* 
+.play-instantly{ 
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.play-instantly img{
     width: 90%;
+}
+.play-instantly-info{
+    width: 50%;
+    margin-left: 50px;
+    padding-bottom: 300px;
+    
+    border: 2px solid yellowgreen;
+    text-align: right;
+}
+.play-instantly-info h3>span{
+    color:#F948B2;
+}
+.baby-picture{
+    width: 50%;
+    position: relative;
+    right: 150px;
+    bottom: 300px;
 } */
 
 /* ||................................................|| */
@@ -150,6 +205,13 @@ nav{
     .play-container img{
         width: 100%;
     }
+
+    /* .......funny-videos-section.......... */
+
+    .cards{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
 }
 
 
@@ -176,4 +238,10 @@ nav{
     .play-container img{
         width: 100%;
     }
+        /* .......funny-videos-section.......... */
+
+        .cards{
+            grid-template-columns: repeat(2,1fr);
+            padding: 50px;
+        }
 }
