@@ -60,3 +60,35 @@ nav{
     color: #F61C0D;
     margin-left: 10px;
 }
+
+
+/* ||................................................|| */
+                /* responsive for mobile devise */
+/* ||................................................|| */
+
+@media screen and (max-width:576px) {
+    nav,main{
+        padding: 0;
+    }
+    nav,.nav-items ul{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+}
+
+
+/* ||................................................|| */
+                /* responsive for tablet devise */
+/* ||................................................|| */
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    nav,main{
+        padding: 0;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+}
