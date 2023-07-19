@@ -313,7 +313,7 @@ nav{
                 /* responsive for mobile devise */
 /* ||................................................|| */
 
-@media screen and (min-width:375px) and (max-width:576px) {
+@media screen and (min-width:320px) and (max-width:576px) {
     nav,main{
         padding: 0;
     }
@@ -438,7 +438,7 @@ nav{
                 /* responsive for tablet devise */
 /* ||................................................|| */
 
-@media screen and (min-width:577px) and (max-width:992px) {
+@media screen and (min-width:577px) and (max-width:1300px) {
     nav,main{
         padding: 0;
     }
