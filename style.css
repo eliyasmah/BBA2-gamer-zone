@@ -222,9 +222,6 @@ nav{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
 }
-.games-container a{
-    text-decoration: none;
-}
 .game{
     display: flex;
     gap: 5px;
@@ -292,13 +289,21 @@ nav{
     font-weight: 500;
 }
 .footer-social-media{
+    padding: 50px 0;
     display: flex;
+    /* gap: 24px; */
     justify-content: center;
+}
+.footer-social-media button{
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
 }
 
 .social-media{
-    color: #FFF;
-    padding: 3rem 1.5rem;
+    color: white;
+    padding: 30px;
 
 }
 
@@ -413,14 +418,14 @@ nav{
         grid-template-columns: repeat(2,1fr);
     }
     .footer-social-media{
+        padding: 0;
         display: grid;
         grid-template-columns: repeat(3,1fr);
         justify-content: center;
         align-items: center;
     }
     .social-media{
-        color: #FFF;
-        padding: 30px;
+        padding: 20px;
     
     }
     .footer-terms ul{
@@ -492,10 +497,10 @@ nav{
     /* games-container */
 
     .games-container{
-                        padding: 20px;
-                        display: grid;
-                        gap: 0;
-                        grid-template-columns: repeat(3,1fr);
+                padding: 20px;
+                display: grid;
+                gap: 0;
+                grid-template-columns: repeat(3,1fr);
                 }
                
 
