@@ -11,7 +11,7 @@ body{
     max-width: 1920px;
     margin: 0 auto;
 }
-nav,main{
+nav{
     padding: 0 240px;
 }
 
@@ -117,6 +117,9 @@ nav{
 }
 
 /* .......funny-videos-section.......... */
+.funny-videos-section{
+    padding: 0 240px;
+}
 .funny-videos-section h3{
     text-align: center;
     padding-top: 100px;
@@ -186,6 +189,7 @@ nav{
 /*......... play-instantly......... */
 
 .play-instantly{ 
+    padding: 0 240px;
     margin-top: 100px;
     display: grid;
     align-items: center;
@@ -213,13 +217,16 @@ nav{
     bottom: 150px;
 }
 
-/* games container */
+/* game-section */
+.game-section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
 .games-container{
-    padding: 100px 0;
+    padding: 100px 240px;
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(5,1fr);
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    
 
 }
 .game{
@@ -276,7 +283,7 @@ nav{
 }
 .footer-items ul, .footer-terms ul{
     display: flex;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
 }
 .footer-items ul>li, .footer-terms ul>li{
@@ -291,7 +298,6 @@ nav{
 .footer-social-media{
     padding: 50px 0;
     display: flex;
-    /* gap: 24px; */
     justify-content: center;
 }
 .footer-social-media button{
@@ -319,7 +325,7 @@ nav{
 /* ||................................................|| */
 
 @media screen and (min-width:320px) and (max-width:576px) {
-    nav,main{
+    nav{
         padding: 0;
     }
     nav,.nav-items ul{
@@ -330,6 +336,7 @@ nav{
 
     /*......play container style..... */
     .play-container{
+        padding: 0;
         display: flex;
         flex-direction: column-reverse;
         padding: 20px;
@@ -352,7 +359,9 @@ nav{
     }
 
     /* .......funny-videos-section.......... */
-
+    .funny-videos-section{
+        padding: 0;
+    }
     .cards{
         grid-template-columns: 1fr;
         padding: 20px;
@@ -386,7 +395,9 @@ nav{
         width: 50%;
     }
         /* games-container */
-
+        .games-section{
+            padding: 0;
+        }
         .games-container{
             padding: 20px;
             gap: 10px;
@@ -444,7 +455,7 @@ nav{
 /* ||................................................|| */
 
 @media screen and (min-width:577px) and (max-width:1300px) {
-    nav,main{
+    nav{
         padding: 0;
     }
     nav{
@@ -465,6 +476,9 @@ nav{
     }
         /* .......funny-videos-section.......... */
 
+        .funny-videos-section{
+            padding: 50px;
+        }
         .cards{
             grid-template-columns: repeat(2,1fr);
             padding: 50px;
